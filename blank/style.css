@@ -1,0 +1,218 @@
+/*
+	Theme Name: Personalizado
+	Theme URL:
+	Description: ...
+	Author: Mauricio Ghilardi
+	Author URI:
+	Version: 1.0
+
+	This theme is released under Creative Commons Attribution 2.5 License.
+
+*/
+
+
+body {
+	background: #ffffff;
+	color: #000000;
+	font-size: 12px;
+	font-family: Verdana, Sans-Serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+	a {
+		color: #ff0000;
+	}
+
+
+/* header */
+#header {
+	padding: 15px 20px;
+	background: #000000;
+}
+
+	#header h1 {
+		margin: 0px;
+		padding: 0px;
+		font-family: Georgia,"Times New Roman",Times,serif;
+		font-weight: normal;
+		font-size: 40px;
+		color: #ffffff;
+	}
+
+		#header h1 a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+	#header p {
+		margin: 0px 0px 0px 10px;
+		padding: 0px;
+		font-family: Verdana,"Times New Roman",Times,serif;
+		font-weight: normal;
+		font-size: 11px;
+		color: #999999;
+		text-decoration: none;
+	}
+
+
+/* content */
+#content {
+	background: #ffffff;
+	padding: 0px 20px 0px 20px;
+}
+
+
+/* sidebar */
+#sidebar {
+	background: #dddddd;
+	position: relative;
+	float: left;
+	width: 250px;
+	padding: 20px 0px 0px 0px;
+}
+
+	#sidebar ul {
+		position: relative;
+		list-style: none;
+		margin: 0px;
+		padding: 10px;
+		margin: 0px 0px 20px 0px;
+	}
+
+	#sidebar h2 {
+		color: #000000;
+		font-family: Georgia,"Times New Roman",Times,serif;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 25px;
+		text-transform: uppercase;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 10px 0px 10px;
+		border-bottom: 1px solid #dddddd;
+		position: relative;
+	}
+
+
+/* content */
+#contentmiddle {
+	background: #f1f1f1;
+	margin-left: 270px;
+	padding: 20px 0px 0px 0px;
+}
+
+	#contentmiddle h1 {
+		color: #000000;
+		font-family: Georgia,"Times New Roman",Times,serif;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 25px;
+		text-transform: uppercase;
+		margin: 0px 0px 10px 0px;
+		padding: 0px 10px 0px 10px;
+		position: relative;
+	}
+
+		#contentmiddle h1 a {
+			border-bottom: 0px;
+		}
+
+	.post {
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 30px 0px;
+	}
+
+		.post .content,
+		.comment .content {
+			padding: 0px 10px 0px 10px;
+			text-align: justify;
+		}
+
+			.post .content p,
+			.comment .content p {
+				line-height: 20px;
+				margin: 10px 0px 0px 0px;
+				padding: 0px 0px 0px 0px;
+			}
+
+
+	.comment {
+		padding: 0px 0px 0px 0px;
+		margin-bottom: 30px;
+	}
+
+	#commentsform {
+		margin-top: 10px;
+		padding: 0px 10px;
+	}
+
+		#commentsform input {
+			font-family: verdana;
+			font-size: 12px;
+			width: 40%;
+			padding: 3px;
+		}
+
+		#submit {
+			font-family: verdana;
+			font-size: 12px;
+			padding: 3px;
+		}
+
+		#commentsform textarea {
+			padding: 3px;
+			font-family: verdana;
+			font-size: 12px;
+			width: 98%;
+			overflow: auto;
+		}
+
+
+
+#footer {
+	border-top: 1px solid #F5F5F5;
+}
+
+	#footer p {
+		padding: 5px 20px;
+	}
+
+
+
+/* widgets */
+#calendar_wrap {
+	padding: 10px 0px 0px 0px;
+	margin: 0px 0px 20px 0px;
+	background: #FBFBFB;
+}
+
+	#wp-calendar {
+		width: 100%;
+	}
+
+		#wp-calendar th {
+			padding: 3px 5px;
+			text-align: center;
+			font-weight: bold;
+			background: #EEEEEE;
+			border: 1px solid #E3E3E3;
+		}
+
+		#wp-calendar caption {
+			font-weight: normal;
+			padding: 0px 10px 3px 10px;
+			text-align: left;
+			background: #FBFBFB;
+		}
+
+		#wp-calendar td {
+			padding: 1px 5px;
+			text-align: right;
+			background: #FBFBFB;
+			border: 1px solid #f3f3f3;
+		}
+
+
+ul.post {
+	list-style: none;
+}
